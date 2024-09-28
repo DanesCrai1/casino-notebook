@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/casino-notebook/static/css/main.5ff186bd.css",
+    "main.js": "/casino-notebook/static/js/main.291b5f44.js",
+    "static/media/casino-white.svg": "/casino-notebook/static/media/casino-white.2bf4eb9547e7512ffbf1dbac9d4734e2.svg",
+    "static/media/casino-black.svg": "/casino-notebook/static/media/casino-black.8886f0136e44071b5133d8225fecbfd1.svg",
+    "index.html": "/casino-notebook/index.html",
+    "main.5ff186bd.css.map": "/casino-notebook/static/css/main.5ff186bd.css.map",
+    "main.291b5f44.js.map": "/casino-notebook/static/js/main.291b5f44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ff186bd.css",
+    "static/js/main.291b5f44.js"
+  ]
+}
