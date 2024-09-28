@@ -1,0 +1,21 @@
+.item_sector {
+    width: 172px;
+    height: 28px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid #e4e2dc;
+}
+
+.block_sector {
+    display: flex;
+    position: absolute;
+
+    font-size: 32px;
+    bottom: 0px;
+
+    color: white;
+    user-select: none;
+}

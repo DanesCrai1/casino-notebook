@@ -1,0 +1,33 @@
+.block_colors {
+    display: flex;
+}
+
+.red_color {
+    background-color: #a7333b;
+    color: white;
+}
+
+.black_color {
+    background-color: #333;
+    color: white;
+}
+
+.green_color {
+    background-color: #366;
+    color: white;
+}
+
+.item_color {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: solid 2px #e4e2dc;
+
+    user-select: none;
+
+    font-size: 36px;
+    font-family: Helvetica, Arial, sans-serif;
+}

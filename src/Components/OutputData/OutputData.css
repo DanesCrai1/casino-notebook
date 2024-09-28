@@ -1,0 +1,115 @@
+.items-output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    height: 322px;
+    flex-direction: column-reverse;
+    padding: 10px 42px 10px 60px;
+
+    background-color: #366;
+
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 30px;
+    left: 16px;
+}
+
+.absolute:nth-child(1) {
+    position: absolute;
+    top: 170px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 36px;
+    font-family: Helvetica, Arial, sans-serif;
+
+    width: 40px;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+
+    user-select: none;
+    border: solid 2px #e4e2dc;
+}
+
+.num-rotate {
+    transform: rotate(270deg);
+}
+
+.red {
+    background-color: #a7333b;
+    color: white;
+}
+
+.red:hover {
+    background-color: #ad3e45;
+}
+
+.black {
+    background-color: #333;
+    color: white;
+}
+
+.black:hover {
+    background-color: #414141;
+}
+
+.green {
+    background-color: #366;
+    color: white;
+    height: 138px;
+}
+
+.green:hover {
+    background-color: rgb(57, 107, 107);
+}
+
+.items-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    height: 322px;
+    flex-direction: column-reverse;
+    padding: 10px 42px 10px 60px;
+
+    /* Сильное затемнение */
+    background-color: rgba(0, 0, 0, 0.8); /* Черный цвет с 80% непрозрачностью */
+    position: relative;
+}
+
+.wrapper-count {
+    position: absolute;
+    margin-bottom: 23px;
+}
+
+.count-num {
+    color: white;
+}
+
+.wrapper_btn-count {
+    width: 700px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.count-btn {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.count-btn:hover {
+    cursor: pointer;
+    fill: white;
+}
