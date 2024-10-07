@@ -13,3 +13,10 @@
 
   background-color: #033;
 }
+
+@media (max-height: 600px) {
+  .Table {
+    height: calc(100vh + 100px);
+    /* Добавляем 100px к высоте */
+  }
+}

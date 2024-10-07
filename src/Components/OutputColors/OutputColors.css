@@ -31,3 +31,19 @@
     font-size: 36px;
     font-family: Helvetica, Arial, sans-serif;
 }
+
+@media (max-width: 768px) {
+    .item_color {
+        width: 60px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        border: solid 2px #e4e2dc;
+        -webkit-user-select: none;
+        user-select: none;
+        font-size: 18px;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+}

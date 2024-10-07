@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
 
+    font-size: 32px;
     border: 2px solid #e4e2dc;
 }
 
@@ -13,9 +14,20 @@
     display: flex;
     position: absolute;
 
-    font-size: 32px;
     bottom: 0px;
 
     color: white;
     user-select: none;
+}
+
+@media (max-width: 768px) {
+    .item_sector {
+        width: 89px;
+        height: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        border: 2px solid #e4e2dc;
+    }
 }

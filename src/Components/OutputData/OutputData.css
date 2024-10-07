@@ -84,7 +84,8 @@
     padding: 10px 42px 10px 60px;
 
     /* Сильное затемнение */
-    background-color: rgba(0, 0, 0, 0.8); /* Черный цвет с 80% непрозрачностью */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Черный цвет с 80% непрозрачностью */
     position: relative;
 }
 
@@ -113,4 +114,70 @@
 .count-btn:hover {
     cursor: pointer;
     fill: white;
+}
+
+@media (max-width: 768px) {
+    .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 18px;
+        font-family: Helvetica, Arial, sans-serif;
+
+        width: 20px;
+        height: 45px;
+        margin: 0;
+        padding: 0;
+
+        user-select: none;
+        border: solid 2px #e4e2dc;
+    }
+
+    .wrapper_btn-count {
+        width: 320px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .items-output {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 160px;
+        flex-direction: column-reverse;
+        padding: 10px 42px 10px 60px;
+        background-color: #366;
+        position: relative;
+    }
+
+    .items-count {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 160px;
+        flex-direction: column-reverse;
+        padding: 10px 42px 10px 60px;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: relative;
+    }
+
+    .green {
+        background-color: #366;
+        color: white;
+        height: 72px;
+    }
+
+    .absolute {
+        position: absolute;
+        top: 18px;
+        left: 38px;
+    }
+
+    .absolute:nth-child(1) {
+        position: absolute;
+        top: 87px;
+    }
 }
